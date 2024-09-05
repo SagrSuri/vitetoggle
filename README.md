@@ -1,4 +1,4 @@
-# Vite Darkmode Toggle
+# For Vite Project Darkmode Toggle Component
 
 A React component for toggling between Dark Mode, Light Mode, and System Mode. Easily integrate this component into your Vite-based React projects to provide users with a seamless theme switching experience.
 
@@ -9,7 +9,7 @@ You can install the package via npm:
 ```bash
    npm install vitetoggle
 ```
-OR
+           OR
 
 ```bash
    npm install vitetoggle@latest
