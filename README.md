@@ -9,3 +9,8 @@ You can install the package via npm:
 ```bash
    npm install vitetoggle
 ```
+OR
+
+```bash
+   npm install vitetoggle@latest
+```

@@ -55,7 +55,7 @@ const Toggle = () => {
       <button
         ref={buttonRef} // Reference to calculate position
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-        className="flex justify-center items-center p-2 rounded-full dark:bg-gray-800 bg-gray-200 shadow-sm dark:shadow-lg mx-2"
+        className="flex justify-center items-center text-xl p-2 rounded-full dark:bg-gray-800 bg-gray-200 shadow-sm dark:shadow-lg mx-2"
         aria-label="Toggle theme mode options"
       >
         {mode === 'dark' && <IoMoonSharp className="text-white" />}
@@ -73,7 +73,7 @@ const Toggle = () => {
           {/* Light Mode Option */}
           <button
             onClick={() => toggleMode('light')}
-            className="flex justify-between items-center px-3 py-1 rounded-md bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
+            className="flex justify-between items-center my-2 px-3 py-1 rounded-md bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
             aria-label="Switch to light mode"
           >
             <span className="font-serif text-[1rem] text-center text-gray-800 dark:text-gray-200">Light</span>
@@ -83,7 +83,7 @@ const Toggle = () => {
           {/* Dark Mode Option */}
           <button
             onClick={() => toggleMode('dark')}
-            className="flex justify-between items-center px-3 py-1 rounded-md bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
+            className="flex justify-between items-center my-2 px-3 py-1 rounded-md bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
             aria-label="Switch to dark mode"
           >
             <span className="font-serif text-[1rem] text-center text-gray-800 dark:text-gray-200">Dark</span>
@@ -93,7 +93,7 @@ const Toggle = () => {
           {/* System Mode Option */}
           <button
             onClick={() => toggleMode('system')}
-            className="flex justify-between items-center px-3 py-1 rounded-md bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
+            className="flex justify-between items-center my-2 px-3 py-1 rounded-md bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
             aria-label="Switch to system mode"
           >
             <span className="font-serif text-[1rem] text-center text-gray-800 dark:text-gray-200">System</span>
