@@ -21,6 +21,11 @@ You can install the package via npm:
 ```bash
    npm install vitetoggle@latest
 ```
+```bash
+
+You can Handle the design esily just change classes according to tailwindcss
+
+```
 
 ```javascript
 import React from "react";
