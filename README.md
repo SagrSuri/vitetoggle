@@ -6,6 +6,8 @@
 
 #### Make Sure You Will be using tailwindcss in our project
 
+![Alt text](./assets/component.png)
+
 ## Installation
 
 You can install the package via npm:
