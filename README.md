@@ -7,6 +7,7 @@
 #### Make Sure You Will be using tailwindcss in our project
 
 ![Alt text](https://github.com/SagrSuri/vitetoggle/raw/main/assets/component.png)
+![Alt text](https://github.com/SagrSuri/vitetoggle/blob/main/assets/darkMode.png)
 
 ## Installation
 
