@@ -1,6 +1,10 @@
-# For Vite Project Darkmode Toggle Component
+# React Component Toggle Button Dark Light And System Mode.
 
-A React component for toggling between Dark Mode, Light Mode, and System Mode. Easily integrate this component into your Vite-based React projects to provide users with a seamless theme switching experience.
+#### [🙏 DONATE ](https://buymeacoffee.com/sagarsuri) ❤️
+
+#### Just Import the component and use this dark mode.
+
+#### Make Sure You Will be using tailwindcss in our project
 
 ## Installation
 
@@ -9,8 +13,38 @@ You can install the package via npm:
 ```bash
    npm install vitetoggle
 ```
+
            OR
 
 ```bash
    npm install vitetoggle@latest
+```
+
+```javascript
+import React from "react";
+import Toggle from "vitetoggle";
+
+const App = () => {
+  return (
+    <div className='h-screen bg-gray-400 dark:bg-slate-950'>
+    // You Need TO COPY Toggle as it is, if you want to customize you can free
+      <Toggle
+        buttonClass="p-2 rounded-full flex justify-center item-center bg-slate-200 hover:bg-slate-300 dark:bg-slate-600 dark:hover:bg-slate-700 shadow-sm shadow-black dark:shadow-white"
+        buttonIconClass="text-[1rem] dark:text-white"
+        dropdownClass="bg-slate-500 dark:bg-slate-700 transition ease-out p-2 space-y-2 rounded-sm m-1 shadow-sm shadow-slate-700"
+        dropdownItemClass="flex w-full p-1 justify-center item-center rounded-md"
+        dropdownHoverClass="hover:bg-slate-400 dark:hover:bg-slate-950"
+        lightButtonClass="bg-gray-400 dark:bg-gray-800 flex justify-center gap-2 item-center align-middle"
+        darkButtonClass="bg-gray-400 dark:bg-gray-800 flex justify-center gap-2 item-center align-middle"
+        systemButtonClass="bg-gray-400 dark:bg-gray-800 flex justify-center gap-2 item-center align-middle"
+        lightIconClass="text-black self-center dark:text-white"
+        darkIconClass="text-black self-center dark:text-white"
+        systemIconClass="text-black self-center dark:text-white"
+      />
+    </div>
+  );
+};
+
+export default App;
+
 ```

@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/Toggle.jsx'), // Adjust entry point as needed
+      entry: resolve(__dirname, 'src/components/Toggle.jsx'), // Updated entry point
       name: 'ViteDarkmodeToggle',
       fileName: (format) => `index.${format}.js`,
       formats: ['cjs', 'es'], // Build both CommonJS and ES modules
