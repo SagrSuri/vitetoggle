@@ -1,7 +1,5 @@
 #DON't Push Because ONly for preview Added this files 
-/src/App.jsx
-/src/index.jsx
-/index.html
+
 
 
 # Node modules
@@ -48,5 +46,5 @@ Thumbs.db
 .FinderInfo
 
 # npm package lock files
-package-lock.json
+
 yarn.lock
