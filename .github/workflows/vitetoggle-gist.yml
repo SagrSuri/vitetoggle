@@ -1,0 +1,25 @@
+name: Update README with Gist
+
+on:
+  push:
+    paths:
+      - README.md
+    branches:
+      - main
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update Gist
+        env:
+          GIST_ID: "78996f71db49dab4093e982b554551e7"  # Your Gist ID
+          GITHUB_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          README_CONTENT=$(cat README.md)
+          curl -X PATCH "https://api.github.com/gists/$GIST_ID" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -d "{\"files\": {\"README.md\": {\"content\": \"$README_CONTENT\"}}}"
