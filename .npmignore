@@ -1,0 +1,30 @@
+# Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+dist/
+build/
+*.tgz
+
+# Configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Tests
+tests/
+*.test.js
+*.spec.js
+
+# Git and other ignored files
+.git/
+.gitignore
+.gitattributes
